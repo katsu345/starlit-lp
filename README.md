@@ -3,7 +3,7 @@
 公開URL: https://katsu345.github.io/starlit-lp/
 公開内容: index.html と assets/（README と .nojekyll は運用用）。
 アプリ内の設定画面「Starlit 公式サイト」からこのURLを開く(hoshi-atsume の kLandingPageUrl)。
-図鑑・試験日・Starlit+ は登場予定、価格と購入CTAは非表示。
+図鑑・試験日・Starlit+ は公開済みとして掲載。Starlit+ の価格とお試しの条件を載せ、購入ボタンは置かない(購入はアプリ内)。
 
 公開方式: GitHub Pages / Deploy from a branch / main / root。
 更新は hoshi-atsume の docs/lp-site/ の承認済み index.html と assets/ のみを差し替え、差分確認後 main へ push。
