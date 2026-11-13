@@ -44,6 +44,7 @@
 <div class="hero">
 <div class="stars" data-stars="70" aria-hidden="true">
 </div>
+<button class="twinkle-toggle" type="button" id="twinkleToggle" aria-pressed="false">星のまたたきを止める</button>
 <div class="wrap hero-grid">
 <div class="hero-text">
 <span class="eyebrow">
@@ -65,7 +66,7 @@
 <img src="./assets/shot-constellation.jpg" alt="科目ごとの星座画面。育てている星座と完成した星座の記録。" width="660" height="1434">
 </div>
 <div class="phone front">
-<img src="./assets/shot-home.jpg" alt="Starlitのホーム画面。濃紺の夜空に、科目ごとの星座が浮かんでいる。" width="660" height="1434">
+<img src="./assets/shot-home.jpg" alt="Starlitのホーム画面。濃紺の夜空に、科目ごとの星座が浮かんでいる。" width="660" height="1434" fetchpriority="high">
 </div>
 </div>
 </div>
@@ -259,7 +260,7 @@
 </div>
 </section>
 <section id="faq">
-<div class="wrap faq">
+<div class="wrap faq accordion">
 <span class="kicker">FAQ</span>
 <h2 class="sec-title">よくある質問</h2>
 <details>

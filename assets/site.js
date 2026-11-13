@@ -43,3 +43,14 @@
     cs.forEach(function (e) { e.classList.add('on'); }); cl.forEach(function (e) { e.classList.add('on'); }); capText.textContent = '完成 7/7';
   }
 })();
+
+// 星のまたたきを止める・再開する（2026-11-13）
+(function () {
+  var t = document.getElementById('twinkleToggle');
+  if (!t) return;
+  t.addEventListener('click', function () {
+    var still = document.documentElement.classList.toggle('still');
+    t.setAttribute('aria-pressed', still ? 'true' : 'false');
+    t.textContent = still ? '星のまたたきを再開する' : '星のまたたきを止める';
+  });
+})();
